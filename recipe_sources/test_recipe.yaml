@@ -1,0 +1,11 @@
+name: test recipe
+source: test link
+servings: 12
+tags:
+- test tag
+notes:
+- test note
+ingredients:
+- '[1,ct,test]'
+steps:
+- test step

@@ -1,6 +1,18 @@
 # MealPlanner
 A website and interface for J, J, J, J, and B's house meal planning.
 
+## Ticketing System
+- Tickets are opened by the users for the following reasons:
+
+| Ticket Type        | Description                                                                                                                                                                            |
+|--------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Meal Request       | A new recipe option they want included                                                                                                                                                 |
+| Ingredient Request | A specific item/ingredient they want added to the shopping list                                                                                                                        |
+| Vote               | The user will order a list of *12-15* options for meals the following meal period.<br/>Based on this data the shopping list and meal list is generated for the admin.                  |
+| Days Off           | This lets the admin know when users don't need a meal. This lets the admin plan for making less/more of a certain meal and updates the shopping list.                                  |
+| Time Change        | This is a request for time change of a specific scheduled meal. This is intended to be used 1-3 days before the meal so that a user can let the cook know they will be late to a meal. |
+
+
 # recipe_manager.py
 - This script allows for the creation and viewing of .yaml recipe files.
 - Recipes have the following fields:
