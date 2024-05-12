@@ -3,9 +3,9 @@ from flask_cors import CORS, cross_origin
 app = Flask(__name__)
 cors = CORS(app)
 app.config['CORS_HEADERS'] = 'Content-Type'
-@app.route('/api/data', methods=['GET'])
+@app.route('/api/meal_days', methods=['GET'])
 @cross_origin()
-def get_data():
+def meal_days():
     data = {'message': 'Hello from Jeb!'}
     return jsonify(data)
 
