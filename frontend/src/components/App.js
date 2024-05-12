@@ -30,17 +30,18 @@ function App() {
   };
 
   return (
-    <Router>
+      <div className={"App"}>
+        <Router >
             <Navbar />
             <Routes>
                 <Route exact path="/" element={<Home />} />
                 <Route path="/meal_request" element={<MealRequest />} />
                 <Route path="/ingredient_request" element={<IngredientRequest />} />
                 <Route path="/vote" element={<Vote />} />
-                <Route path="/schedule_change" element={<ScheduleChange />}
-                />
+                <Route path="/schedule_change" element={<ScheduleChange />} />
             </Routes>
         </Router>
+      </div>
   );
 }
 
